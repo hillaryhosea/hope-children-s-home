@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    
+}
+
 header{
     background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url('image/WhatsApp\ Image\ 2023-04-20\ at\ 19.09.59.jpeg');
     height: 100vh;
