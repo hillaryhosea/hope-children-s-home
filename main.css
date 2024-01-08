@@ -11,6 +11,12 @@ header{
     background-size: cover;
 }
 
+.logo
+{
+    display: flex;
+    justify-content: space-around;
+}
+
 .logo img
 {
     width: 20%;
@@ -78,4 +84,11 @@ header{
     background-color: black;
     color: whitesmoke;
     text-align: center;
+}
+
+.footer p 
+{
+    align-items: center;
+    align-content: center;
+    margin-top: 60px 
 }
