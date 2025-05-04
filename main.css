@@ -123,10 +123,19 @@ body {
     transition: background-color 0.3s, transform 0.2s;
 }
 
+.btn--about{
+    background-color: #ff0000;
+}
+
+.btn--donate{
+    background-color: #f7e62c;
+    color: #000;
+}
+
 .btn--hero:hover,
 .btn--hero:focus {
-  background-color: #0056b3;  
-  transform: translateY(-2px);
+  /* background-color: #0056b3;   */
+  transform: translateY(-4px);
 }
 
  .hero_image img {
@@ -136,15 +145,107 @@ body {
   }
 
 .about_us {
+    padding: 4rem 6rem 4rem 6rem;
+    display: flex;
+    gap: 4rem;
+    background-color: #e7fdff;
+}
+.about_header {
+    font-size: 38px;
+}
+.about_text {
+    padding: 1rem 0rem 2rem 0rem ; 
+    font-size: 17px;
+    line-height: 1.4em;
+}
+.about_button{
     display: flex;
     gap: 2rem;
 }
 
-.about_element {
+.about_element{
     flex: 1;
 }
 
-.about_iamge img {
-    width: 100%;
+.about_image {
+    width:100% ;
     height: auto;
+    border-radius: 10px;
 }
+
+.pillars {
+    align-content: center;
+    padding: 2rem 6rem 0rem 6rem;
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 50px;
+}
+
+.pillar_header {
+    text-align: center;
+    padding: 0rem 6rem 2rem 6rem;
+}
+
+
+.side-line {
+    display: flex;
+    align-items: center;
+    text-align: center;       
+    font-size: 2rem;
+    color: #1e3a8a;
+    margin: 2rem 0;
+  }
+  
+  .side-line::before,
+  .side-line::after {
+    content: "";
+    flex: 1;                  
+    height: 2px;             
+    background: #e5e7eb;     
+    margin: 0 1rem;          
+  }
+  
+
+.pillar{
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ;
+}
+
+.pillar_title {
+    font-size: 28px;
+}
+
+.pillar:hover {
+    transform: translate(25px, -10%);
+}
+
+.pillar_img {
+    width: 50px;
+    height: 50px;
+}
+.pillar_txt {
+    padding: 1rem 0rem 1rem 0rem ;
+}
+
+.health_pillar {
+    background-color: #c5b826;
+    color: #fff;
+
+}
+
+.rescue_pillar {
+    background-color:#6262ce ;
+    color: #fff;
+}
+
+.education_pillar{
+    background-color: #289e65;
+    color: #fff;
+
+}
+
+
+
+
