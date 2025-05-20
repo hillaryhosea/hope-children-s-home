@@ -246,6 +246,56 @@ body {
 
 }
 
+.success-stories {
+    margin: 6rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
 
+.success-header{
+    text-align: center;
+    background-color: #12436b;
+    padding: 20px 0px 20px 0px ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
 
+.success_title {
+    color: #fff;
+    font-size: 32px;
+}
+
+.success_text {
+    color: #fff;
+    font-size: 18px;
+    padding: 20px 0px 15px 0px;
+}
+
+.success-individuals {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.individual{
+  flex: 0 0 calc((100% - 2rem) / 3);
+  background: #fff;
+  padding: 1rem;
+  margin-top: 20px;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.individual-profile {
+    align-items: center;
+    width: 150px;
+    height: auto;
+}
+
+.individual_title{
+    padding: 20px 0px 20px 0px;
+}
 
