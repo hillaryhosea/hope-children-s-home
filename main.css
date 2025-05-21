@@ -299,3 +299,60 @@ body {
     padding: 20px 0px 20px 0px;
 }
 
+.site-footer {
+    background-color: #1f2937;
+    color: #f9fafb;
+    padding: 3rem 1rem;
+    font-size: 0.9rem;
+  }
+  .site-footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .footer-columns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  .footer-col {
+    flex: 1 1 200px;
+  }
+  .footer-col h4 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    color: #e5e7eb;
+  }
+  .footer-col p,
+  .footer-col li {
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+  }
+  .footer-col ul {
+    list-style: none;
+    padding: 0;
+  }
+  .footer-col a {
+    color: #a5b4fc;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  .footer-col a:hover {
+    color: #818cf8;
+  }
+  .social-icons a {
+    margin-right: 0.5rem;
+    display: inline-block;
+  }
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+  }
+  .footer-bottom {
+    text-align: center;
+    border-top: 1px solid #374151;
+    padding-top: 1rem;
+  }
+
