@@ -103,3 +103,38 @@
     line-height: 1.7;
     color: #4b5563;
 }
+
+@media screen and  (max-width: 768px ) {
+    .about{
+        padding: 2rem 1rem 2rem 1rem;
+    }
+
+    .about_container {
+        flex-direction: column;
+        padding: 0rem;
+        gap: 2rem;
+    }
+
+    .about_title{
+        font-size: 34px;
+        margin-bottom: 3rem;
+        padding-top: 1rem;
+    }
+
+    .about_subtitle{
+        font-size: 17px;
+    }
+
+    .about_description{
+        font-size: 16px;
+    }
+    .impact_stats {
+        padding: 1rem;
+    }   
+
+    .mission_vision {
+        flex-direction: column;
+        padding: 1rem 1rem 2rem 1rem;;
+        gap: 2rem;
+    }
+}
